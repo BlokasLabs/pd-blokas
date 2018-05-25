@@ -1,0 +1,36 @@
+#N canvas 43 489 522 412 10;
+#X obj 101 133 cnv 15 140 15 empty \$1-canvas <unknown> 10 12 0 12 -262144
+-66577 0;
+#X obj 112 121 hsl 128 15 0 47 0 0 __unknown__ __unknown__ empty -2 -8 0 10
+-262144 -1 -1 0 1;
+#X obj 275 34 loadbang;
+#X msg 275 113 send \$1;
+#X obj 276 63 symbol \$1;
+#X msg 340 113 receive \$1;
+#X msg 16 83 range \$1 \$2;
+#X obj 18 12 r \$1-range;
+#X obj 419 12 loadbang;
+#X obj 277 89 t s s;
+#X obj 419 74 s \$1-load;
+#X obj 224 169 r \$1-name;
+#X obj 224 254 s \$1-canvas;
+#X obj 224 199 symbol;
+#X msg 224 226 label \$1;
+#X obj 419 43 del 10;
+#X obj 326 5 r rack-refresh;
+#X connect 2 0 4 0;
+#X connect 3 0 1 0;
+#X connect 4 0 9 0;
+#X connect 5 0 1 0;
+#X connect 6 0 1 0;
+#X connect 7 0 6 0;
+#X connect 8 0 15 0;
+#X connect 9 0 3 0;
+#X connect 9 1 5 0;
+#X connect 11 0 13 0;
+#X connect 13 0 14 0;
+#X connect 14 0 12 0;
+#X connect 15 0 10 0;
+#X connect 16 0 4 0;
+#X connect 16 0 15 0;
+#X coords 0 -1 1 1 150 56 1 100 100;
