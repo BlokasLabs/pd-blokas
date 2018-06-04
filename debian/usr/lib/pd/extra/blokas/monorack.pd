@@ -18,7 +18,7 @@
 #X obj 156 81 s rack-refresh;
 #X obj 137 48 t b b b;
 #X obj 78 56 del 5;
-#X obj 327 305 KontrolRack kontrol 8000 9000 1;
+#X obj 327 305 KontrolRack kontrol 6000 6001 1;
 #X msg 104 220 singlemodulemode 1;
 #X obj 40 94 t b b b b;
 #X msg 101 265 monitorenable 1;
