@@ -1,0 +1,15 @@
+Source: pd-blokas
+Section: sound
+Priority: optional
+Maintainer: Blokas Labs <hello@blokas.io>
+Build-Depends: cmake, debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://blokas.io/
+Rules-Requires-Root: no
+
+Package: pd-blokas
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: pd-blokas Pure Data externals, for use with MEC server.
+ See https://github.com/TheTechnobear/MEC/ and https://blokas.io/ for more information.

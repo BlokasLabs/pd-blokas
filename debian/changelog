@@ -1,0 +1,23 @@
+pd-blokas (0.1.1-4) UNRELEASED; urgency=low
+
+  * Repackaging for aarch64 compatibility.
+
+ --  Giedrius Trainavičius <giedrius@blokas.io>  Thu, 25 Jan 2024 10:28:40 +0200
+
+pd-blokas (0.1.1-3)
+
+  * Updated MEC port to 6050 from 6000.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io> Sun, 1 Apr 2019 17:30:15 +0300
+
+pd-blokas (0.1.1-2)
+
+  * Removed optimization flags from the build which caused crashes on Jessie.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io> Sun, 17 Jun 2018 11:16:13 +0200
+
+pd-blokas (0.1.1-1) jessie; urgency=medium
+
+  * Initial .deb packaged release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 14 Jun 2018 19:09:10 +0200

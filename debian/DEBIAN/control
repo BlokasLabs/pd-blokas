@@ -1,9 +1,0 @@
-Package: pd-blokas
-Version: 0.1.1-3
-Section: sound
-Priority: optional
-Architecture: armhf
-Depends: libc6 (>= 2.19), libgcc1 (>= 1:4.9.2-10)
-Maintainer: Blokas Labs <hello@blokas.io>
-Description: pd-blokas Pure Data externals, for use with MEC server.
- See https://github.com/TheTechnobear/MEC/ and https://blokas.io/ for more information.
